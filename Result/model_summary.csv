@@ -1,0 +1,22 @@
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ resnet50 (Functional)       (None, 2048)              23587712  
+                                                                 
+ flatten_1 (Flatten)         (None, 2048)              0         
+                                                                 
+ dense_2 (Dense)             (None, 2084)              4270116   
+                                                                 
+ dropout_1 (Dropout)         (None, 2084)              0         
+                                                                 
+ batch_normalization_1 (Batc  (None, 2084)             8336      
+ hNormalization)                                                 
+                                                                 
+ dense_3 (Dense)             (None, 1042)              2172570   
+                                                                 
+=================================================================
+Total params: 30,038,734
+Trainable params: 6,446,854
+Non-trainable params: 23,591,880
+_________________________________________________________________
